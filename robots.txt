@@ -1,4 +1,52 @@
+# robots.txt per l'origine https://fabriziosalmi.github.io
+#
+# Tutti i siti di progetto vivono su questa stessa origine, come sottocartelle.
+# robots.txt vale solo alla radice di un'origine, quindi i robots.txt dentro le
+# singole sottocartelle non vengono letti da nessun crawler: e' QUI che le loro
+# sitemap vanno dichiarate, altrimenti non lo sono da nessuna parte.
+#
+# I siti con dominio proprio (agssh.dev, www.caddy-waf.com, www.certmate.org, ...)
+# non compaiono qui: sono origini diverse e dichiarano le proprie sitemap nel
+# proprio robots.txt.
+
 User-agent: *
 Allow: /
 
+Sitemap: https://fabriziosalmi.github.io/UglyFeed/sitemap.xml
+Sitemap: https://fabriziosalmi.github.io/aidlp/sitemap.xml
+Sitemap: https://fabriziosalmi.github.io/b2v/sitemap.xml
+Sitemap: https://fabriziosalmi.github.io/blacklists/sitemap.xml
+Sitemap: https://fabriziosalmi.github.io/brandkit/sitemap.xml
+Sitemap: https://fabriziosalmi.github.io/domainmate/sitemap.xml
+Sitemap: https://fabriziosalmi.github.io/fabgpt-faq/sitemap.xml
+Sitemap: https://fabriziosalmi.github.io/fqdn-model/sitemap.xml
+Sitemap: https://fabriziosalmi.github.io/l0-compressor/sitemap.xml
+Sitemap: https://fabriziosalmi.github.io/l0-git/sitemap.xml
+Sitemap: https://fabriziosalmi.github.io/l0-memory/sitemap.xml
+Sitemap: https://fabriziosalmi.github.io/llmproxy/sitemap.xml
+Sitemap: https://fabriziosalmi.github.io/logos/sitemap.xml
+Sitemap: https://fabriziosalmi.github.io/lws/sitemap.xml
+Sitemap: https://fabriziosalmi.github.io/mixi-cut/sitemap.xml
+Sitemap: https://fabriziosalmi.github.io/naso/sitemap.xml
+Sitemap: https://fabriziosalmi.github.io/newsgator/sitemap.xml
+Sitemap: https://fabriziosalmi.github.io/nginx-waf-ai/sitemap.xml
+Sitemap: https://fabriziosalmi.github.io/nis2-model/sitemap.xml
+Sitemap: https://fabriziosalmi.github.io/nis2-public/sitemap.xml
+Sitemap: https://fabriziosalmi.github.io/noted/sitemap.xml
+Sitemap: https://fabriziosalmi.github.io/occam-gitignore/sitemap.xml
+Sitemap: https://fabriziosalmi.github.io/occam-observer/sitemap.xml
+Sitemap: https://fabriziosalmi.github.io/open-bpm/sitemap.xml
+Sitemap: https://fabriziosalmi.github.io/open-video-watermark/sitemap.xml
+Sitemap: https://fabriziosalmi.github.io/patterns/sitemap.xml
+Sitemap: https://fabriziosalmi.github.io/pdf-ocr/sitemap.xml
+Sitemap: https://fabriziosalmi.github.io/proximity/sitemap.xml
+Sitemap: https://fabriziosalmi.github.io/proxmox-lxc-autoscale/sitemap.xml
+Sitemap: https://fabriziosalmi.github.io/proxmox-lxc-autoscale-ml/sitemap.xml
+Sitemap: https://fabriziosalmi.github.io/proxmox-vm-autoscale/sitemap.xml
+Sitemap: https://fabriziosalmi.github.io/proxxx/sitemap.xml
+Sitemap: https://fabriziosalmi.github.io/proxymate/sitemap.xml
+Sitemap: https://fabriziosalmi.github.io/secure-proxy-manager/sitemap.xml
+Sitemap: https://fabriziosalmi.github.io/slopless/sitemap.xml
+Sitemap: https://fabriziosalmi.github.io/speedmate/sitemap.xml
+Sitemap: https://fabriziosalmi.github.io/websites-monitor/sitemap.xml
 Sitemap: https://fabriziosalmi.github.io/zion/sitemap.xml
